@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -14571,6 +14571,45 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <text x="-1.905" y="-3.4925" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.55" y1="0.6" x2="1.55" y2="0.85" layer="21"/>
 </package>
+<package name="3RP/1610N">
+<description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
+Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
+<wire x1="-8.35" y1="-3.7" x2="8.35" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-5.7" x2="-7.25" y2="-5.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="-5.7" width="0.2032" layer="21"/>
+<wire x1="-7.25" y1="-5.7" x2="-7.25" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-1.7" x2="8.35" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="5.4" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="-2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-13.7" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-3.8" x2="-3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-9.9" x2="-2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-10.2" x2="3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-9.9" x2="3.4" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-13.7" x2="2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="8.35" y1="-3.7" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.525" x2="3.3" y2="-9" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.025" x2="3.3" y2="-8.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.525" x2="3.3" y2="-8" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.025" x2="3.3" y2="-7.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.525" x2="3.3" y2="-7" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.025" x2="3.3" y2="-6.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.525" x2="3.3" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.025" x2="3.3" y2="-5.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.525" x2="3.3" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.025" x2="3.3" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-4.525" x2="3.3" y2="-4" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="-10.025" x2="3.3" y2="-9.5" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="2" x="0" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="3" x="5" y="0" drill="1.2" diameter="2.1844"/>
+<text x="-8.255" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="4" x="-2.54" y="0" drill="1.2" shape="long" rot="R90"/>
+<pad name="6" x="2.54" y="0" drill="1.2" shape="long" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="POT_US-">
@@ -14596,6 +14635,25 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="POT_EU-">
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-3.1989" y2="2.4495" width="0.1524" layer="94"/>
+<wire x1="-3.1989" y1="2.4495" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15097,6 +15155,35 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="3RP/1610N" prefix="R" uservalue="yes">
+<description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
+Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
+<gates>
+<gate name="G$1" symbol="POT_EU-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3RP/1610N">
+<connects>
+<connect gate="G$1" pin="A" pad="1 4"/>
+<connect gate="G$1" pin="E" pad="3 6"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="45MM-SLIDE" package="ST15">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="solpad">
@@ -15153,213 +15240,136 @@ drill 1.0 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="stefan-lochbrunner_EAGLE_master_custom libraries_potentiometers_Bourns PTA series_Bourns PTA series">
-<description>&lt;h4&gt;Bourns PTA series and TT Electronics PSxx series slide potentiometer&lt;/h4&gt;
-
-By Stefan Lochbrunner
-&lt;br&gt;
-https://github.com/stefan-lochbrunner/EAGLE
-
-&lt;br&gt;&lt;br&gt;
-Based on 'TRIM' device in Adafruits library (https://github.com/adafruit/Adafruit-Eagle-Library)
-&lt;br&gt;
-Contains footprints for Bourns PTA series slide potentiometers that should also fit  TT Electronics PSxx series.</description>
+<library name="erthenvar">
 <packages>
-<package name="SLIDEPOT-45">
-<description>45mm x 9mm, 30mm travel</description>
-<wire x1="-22.5" y1="4.5" x2="22.5" y2="4.5" width="0.127" layer="21"/>
-<wire x1="22.5" y1="4.5" x2="22.5" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="22.5" y1="-4.5" x2="-22.5" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-22.5" y1="-4.5" x2="-22.5" y2="4.5" width="0.127" layer="21"/>
-<circle x="-20.5" y="0" radius="1" width="0.127" layer="21"/>
-<circle x="20.5" y="0" radius="1" width="0.127" layer="21"/>
-<wire x1="-18.5" y1="1.5" x2="18.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="18.5" y1="1.5" x2="18.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="18.5" y1="-1.5" x2="-18.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-18.5" y1="-1.5" x2="-18.5" y2="1.5" width="0.127" layer="21"/>
-<pad name="P$1" x="-16.4" y="4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$2" x="16.4" y="4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$3" x="-17.6" y="-4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$4" x="17.6" y="-4.2" drill="1.7" diameter="2.54"/>
-<pad name="B" x="21.75" y="1.75" drill="1.2" diameter="2.1844"/>
-<pad name="A" x="-21.75" y="1.75" drill="1.2" diameter="2.1844"/>
-<pad name="WIPER" x="-21.75" y="-1.75" drill="1.2" diameter="2.1844"/>
-<text x="-2.5" y="5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3" y="-6.5" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="-2" y="-0.5" size="1.27" layer="21" font="vector">45MM</text>
+<package name="ERTHENVAR-JACK-90DEG">
+<description>&lt;h4&gt;3.5mm Right Angle Jacks&lt;/h4&gt;
+
+&lt;a href="http://erthenvar.com/store/accessories/3.5mm-right-angle-jacks"&gt;http://erthenvar.com/store/accessories/3.5mm-right-angle-jacks&lt;/a&gt;</description>
+<wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="51"/>
+<wire x1="10" y1="0" x2="10" y2="-15.5" width="0.127" layer="51"/>
+<wire x1="10" y1="-15.5" x2="0" y2="-15.5" width="0.127" layer="51"/>
+<wire x1="0" y1="-15.5" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="4.4" y1="-2.5" x2="5.6" y2="-2.5" width="1.016" layer="46"/>
+<wire x1="4.4" y1="-15.7" x2="5.6" y2="-15.7" width="1.016" layer="46"/>
+<wire x1="-0.2" y1="-14.1" x2="-0.2" y2="-12.9" width="1.016" layer="46"/>
+<pad name="P$1" x="5" y="-2.5" drill="1.3" diameter="2.54" shape="long" rot="R180"/>
+<pad name="P$2" x="-0.2" y="-13.5" drill="1.3" diameter="2.54" shape="long" rot="R90"/>
+<pad name="P$3" x="5" y="-15.7" drill="1.3" diameter="2.54" shape="long" rot="R180"/>
+<text x="3.81" y="6.35" size="1.27" layer="21">&gt;NAME</text>
+<hole x="5.842" y="-2.4892" drill="1.3"/>
+<hole x="4.1402" y="-2.4892" drill="1.3"/>
+<hole x="-0.2032" y="-12.6492" drill="1.3"/>
+<hole x="-0.2032" y="-14.351" drill="1.3"/>
+<hole x="5.842" y="-15.6972" drill="1.3"/>
+<hole x="4.1656" y="-15.6972" drill="1.3"/>
+<polygon width="0.127" layer="45">
+<vertex x="2" y="3.5"/>
+<vertex x="8" y="3.5"/>
+<vertex x="8" y="0"/>
+<vertex x="2" y="0"/>
+</polygon>
 </package>
-<package name="SLIDEPOT-60">
-<description>60mm x 9mm, 45mm travel</description>
-<wire x1="-30.12" y1="4.5" x2="30.12" y2="4.5" width="0.127" layer="21"/>
-<wire x1="30.12" y1="4.5" x2="30.12" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="30.12" y1="-4.5" x2="-30.12" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-30.12" y1="-4.5" x2="-30.12" y2="4.5" width="0.127" layer="21"/>
-<circle x="-28.12" y="0" radius="1" width="0.127" layer="21"/>
-<circle x="28.12" y="0" radius="1" width="0.127" layer="21"/>
-<wire x1="-26.12" y1="1.5" x2="26.12" y2="1.5" width="0.127" layer="21"/>
-<wire x1="26.12" y1="1.5" x2="26.12" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="26.12" y1="-1.5" x2="-26.12" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-26.12" y1="-1.5" x2="-26.12" y2="1.5" width="0.127" layer="21"/>
-<pad name="P$1" x="-24.02" y="4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$2" x="24.02" y="4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$3" x="-25.22" y="-4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$4" x="25.22" y="-4.2" drill="1.7" diameter="2.54"/>
-<pad name="B" x="29.37" y="1.75" drill="1.2" diameter="2.1844"/>
-<pad name="A" x="-29.37" y="1.75" drill="1.2" diameter="2.1844"/>
-<pad name="WIPER" x="-29.37" y="-1.75" drill="1.2" diameter="2.1844"/>
-<text x="-2.5" y="5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3" y="-6.5" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="-2" y="-0.5" size="1.27" layer="21" font="vector">60MM</text>
+<package name="ERTHENVAR-JACK">
+<wire x1="-4.9" y1="6" x2="4.9" y2="6" width="0.127" layer="51"/>
+<wire x1="4.9" y1="6" x2="4.9" y2="-4.9" width="0.127" layer="51"/>
+<wire x1="4.9" y1="-4.9" x2="-4.9" y2="-4.9" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="-4.9" x2="-4.9" y2="6" width="0.127" layer="51"/>
+<wire x1="-5" y1="-2" x2="-5" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-5" x2="-2" y2="-5" width="0.2032" layer="21"/>
+<wire x1="1.651" y1="-5.08" x2="4.953" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="4.953" y1="-5.08" x2="4.953" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="4.953" y1="1.651" x2="4.953" y2="5.969" width="0.2032" layer="25"/>
+<wire x1="4.953" y1="5.969" x2="2.413" y2="5.969" width="0.2032" layer="21"/>
+<wire x1="-2.032" y1="5.969" x2="-4.826" y2="5.969" width="0.2032" layer="21"/>
+<wire x1="-4.826" y1="5.969" x2="-4.826" y2="2.159" width="0.2032" layer="21"/>
+<pad name="1@1" x="-4.2" y="0" drill="2.5" rot="R90"/>
+<pad name="1@2" x="4.2" y="0" drill="1.5" rot="R90"/>
+<pad name="2" x="0" y="-3.3" drill="2.5" rot="R90"/>
+<pad name="3" x="0" y="4.9" drill="2.5" rot="R90"/>
+<text x="3.81" y="6.35" size="1.27" layer="21">&gt;NAME</text>
 </package>
-<package name="SLIDEPOT-75">
-<description>75mm x 9mm, 60mm travel</description>
-<wire x1="-37.74" y1="4.5" x2="37.26375" y2="4.5" width="0.127" layer="21"/>
-<wire x1="37.26375" y1="4.5" x2="37.26375" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="37.26375" y1="-4.5" x2="-37.74" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-37.74" y1="-4.5" x2="-37.74" y2="4.5" width="0.127" layer="21"/>
-<circle x="-35.74" y="0" radius="1" width="0.127" layer="21"/>
-<circle x="35.26375" y="0" radius="1" width="0.127" layer="21"/>
-<wire x1="-33.74" y1="1.5" x2="33.26375" y2="1.5" width="0.127" layer="21"/>
-<wire x1="33.26375" y1="1.5" x2="33.26375" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="33.26375" y1="-1.5" x2="-33.74" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-33.74" y1="-1.5" x2="-33.74" y2="1.5" width="0.127" layer="21"/>
-<pad name="P$1" x="-31.64" y="4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$2" x="31.16375" y="4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$3" x="-32.84" y="-4.2" drill="1.7" diameter="2.54"/>
-<pad name="P$4" x="32.36375" y="-4.2" drill="1.7" diameter="2.54"/>
-<pad name="B" x="36.51375" y="1.75" drill="1.2" diameter="2.1844"/>
-<pad name="A" x="-36.99" y="1.75" drill="1.2" diameter="2.1844"/>
-<pad name="WIPER" x="-36.99" y="-1.75" drill="1.2" diameter="2.1844"/>
-<text x="-2.5" y="5" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-3" y="-6.5" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="-2" y="-0.5" size="1.27" layer="21" font="vector">75MM</text>
+<package name="JACK-90DEG-ITEAD">
+<description>Erthenvar 90deg jack prepared for slot milling by iTEAD</description>
+<wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="51"/>
+<wire x1="10" y1="0" x2="10" y2="-15.5" width="0.127" layer="51"/>
+<wire x1="10" y1="-15.5" x2="0" y2="-15.5" width="0.127" layer="51"/>
+<wire x1="0" y1="-15.5" x2="0" y2="0" width="0.127" layer="51"/>
+<pad name="P$1" x="5" y="-2.5" drill="1.3" diameter="2.54" shape="long" rot="R180"/>
+<pad name="P$2" x="-0.2" y="-13.5" drill="1.3" diameter="2.54" shape="long" rot="R90"/>
+<pad name="P$3" x="5" y="-15.7" drill="1.3" diameter="2.54" shape="long" rot="R180"/>
+<text x="2.54" y="-11.43" size="1.27" layer="22" rot="MR180">&gt;NAME</text>
+<polygon width="0.127" layer="45">
+<vertex x="2" y="3.5"/>
+<vertex x="8" y="3.5"/>
+<vertex x="8" y="0"/>
+<vertex x="2" y="0"/>
+</polygon>
+<wire x1="3.429" y1="-3.048" x2="3.429" y2="-2.032" width="0.127" layer="46"/>
+<wire x1="3.429" y1="-2.032" x2="6.604" y2="-2.032" width="0.127" layer="46"/>
+<wire x1="6.604" y1="-2.032" x2="6.604" y2="-3.048" width="0.127" layer="46"/>
+<wire x1="6.604" y1="-3.048" x2="3.429" y2="-3.048" width="0.127" layer="46"/>
+<wire x1="0.254" y1="-15.113" x2="-0.762" y2="-15.113" width="0.127" layer="46"/>
+<wire x1="-0.762" y1="-15.113" x2="-0.762" y2="-11.938" width="0.127" layer="46"/>
+<wire x1="-0.762" y1="-11.938" x2="0.254" y2="-11.938" width="0.127" layer="46"/>
+<wire x1="0.254" y1="-11.938" x2="0.254" y2="-15.113" width="0.127" layer="46"/>
+<wire x1="3.429" y1="-16.256" x2="3.429" y2="-15.24" width="0.127" layer="46"/>
+<wire x1="3.429" y1="-15.24" x2="6.604" y2="-15.24" width="0.127" layer="46"/>
+<wire x1="6.604" y1="-15.24" x2="6.604" y2="-16.256" width="0.127" layer="46"/>
+<wire x1="6.604" y1="-16.256" x2="3.429" y2="-16.256" width="0.127" layer="46"/>
 </package>
 </packages>
 <symbols>
-<symbol name="TRIM">
-<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
-<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="B" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="WIPER" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<symbol name="AUDIO-JACK">
+<rectangle x1="-7.62" y1="-5.08" x2="-5.08" y2="2.54" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<pin name="NORM" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="RING" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="TIP" x="7.62" y="-5.08" length="middle" rot="R180"/>
+<text x="-7.493" y="4.445" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TRIM" prefix="TM" uservalue="yes">
-<description>Sliding potentiometers
-
-Based on Adafruits (https://github.com/adafruit/Adafruit-Eagle-Library) 'TRIM' device.
-For Bourns PTA series and TT Electronics PSxx series potentiometers.</description>
+<deviceset name="AUDIO-JACK" prefix="JCK">
+<description>Switching Mono 3.5mm Audio Jack from Erthenvar.</description>
 <gates>
-<gate name="G$1" symbol="TRIM" x="-7.62" y="2.54"/>
+<gate name="G$1" symbol="AUDIO-JACK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SLIDE45" package="SLIDEPOT-45">
+<device name="" package="ERTHENVAR-JACK-90DEG">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="WIPER" pad="WIPER"/>
+<connect gate="G$1" pin="NORM" pad="P$2"/>
+<connect gate="G$1" pin="RING" pad="P$1"/>
+<connect gate="G$1" pin="TIP" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SLIDE60" package="SLIDEPOT-60">
+<device name="ERTHENVAR" package="ERTHENVAR-JACK">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="WIPER" pad="WIPER"/>
+<connect gate="G$1" pin="NORM" pad="2"/>
+<connect gate="G$1" pin="RING" pad="1@1 1@2"/>
+<connect gate="G$1" pin="TIP" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SLIDE75" package="SLIDEPOT-75">
+<device name="ITEAD" package="JACK-90DEG-ITEAD">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="WIPER" pad="WIPER"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="thonkiconn">
-<packages>
-<package name="WQP-PJ301M-12_JACK">
-<wire x1="-4.5" y1="6" x2="-1.5" y2="6" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="6" x2="1.5" y2="6" width="0.127" layer="21"/>
-<wire x1="1.5" y1="6" x2="4.5" y2="6" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="6" x2="-4.5" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-4.5" x2="0.2" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="0.2" y1="-4.5" x2="4.5" y2="-4.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-4.5" x2="4.5" y2="6" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.162275" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="6" x2="-1.5" y2="4" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4" x2="1.5" y2="4" width="0.127" layer="21"/>
-<wire x1="1.5" y1="4" x2="1.5" y2="6" width="0.127" layer="21"/>
-<pad name="P$1" x="0" y="5" drill="1.1" thermals="no"/>
-<pad name="P$2" x="0" y="-3.5" drill="1.1"/>
-<pad name="P$3" x="0" y="-6.5" drill="1.1"/>
-<circle x="0" y="0" radius="2.690721875" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="-4.6" x2="-0.2" y2="-6.7" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="-6.7" x2="0.2" y2="-6.7" width="0.127" layer="21"/>
-<wire x1="0.2" y1="-6.7" x2="0.2" y2="-4.5" width="0.127" layer="21"/>
-<rectangle x1="-2.8" y1="-2.8" x2="2.8" y2="2.8" layer="41"/>
-<text x="-4.7498" y="-4.4704" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="JACK">
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.524" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.524" y1="1.016" x2="2.286" y2="1.778" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="2.286" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="2.286" x2="-1.016" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.524" x2="-0.508" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="1.524" x2="-0.762" y2="2.286" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="4.572" y2="-2.54" width="0.1524" layer="94"/>
-<text x="-2.54" y="4.064" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.096" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="2.286" y1="-0.508" x2="7.874" y2="0.508" layer="94" rot="R90"/>
-<pin name="1" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WQP-PJ301M-12_JACK">
-<gates>
-<gate name="G$1" symbol="JACK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WQP-PJ301M-12_JACK">
-<connects>
-<connect gate="G$1" pin="1" pad="P$3"/>
-<connect gate="G$1" pin="2" pad="P$1"/>
-<connect gate="G$1" pin="3" pad="P$2"/>
+<connect gate="G$1" pin="NORM" pad="P$2"/>
+<connect gate="G$1" pin="RING" pad="P$1"/>
+<connect gate="G$1" pin="TIP" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15473,14 +15483,14 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <part name="R28" library="rcl" deviceset="R-US_" device="R1206" value="150R"/>
 <part name="CMNA2" library="solpad" deviceset="LSP10" device=""/>
 <part name="ADJ2" library="solpad" deviceset="LSP10" device=""/>
-<part name="TM1" library="stefan-lochbrunner_EAGLE_master_custom libraries_potentiometers_Bourns PTA series_Bourns PTA series" deviceset="TRIM" device="SLIDE60" value="B100k"/>
-<part name="TM2" library="stefan-lochbrunner_EAGLE_master_custom libraries_potentiometers_Bourns PTA series_Bourns PTA series" deviceset="TRIM" device="SLIDE60" value="B100k"/>
-<part name="OUT2" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="CV1" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="IN2" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="IN1" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="CV2" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
-<part name="OUT1" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="OUT2" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD"/>
+<part name="CV2" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD"/>
+<part name="CV1" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD"/>
+<part name="1N1" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD"/>
+<part name="IN2" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD"/>
+<part name="OUT1" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD"/>
+<part name="LEV1" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
+<part name="LEV2" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 </parts>
 <sheets>
 <sheet>
@@ -15696,7 +15706,7 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <attribute name="VALUE" x="148.59" y="49.022" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P-9" gate="1" x="137.16" y="43.18"/>
-<instance part="GND13" gate="1" x="172.72" y="33.02" rot="MR0"/>
+<instance part="GND13" gate="1" x="170.18" y="33.02" rot="MR0"/>
 <instance part="R25" gate="G$1" x="116.84" y="17.78" smashed="yes">
 <attribute name="NAME" x="113.03" y="19.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="14.478" size="1.778" layer="96"/>
@@ -15729,14 +15739,14 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <instance part="IC1" gate="B" x="81.28" y="78.74" rot="MR180"/>
 <instance part="IC2" gate="B" x="99.06" y="33.02" rot="MR180"/>
 <instance part="IC2" gate="G$4" x="137.16" y="33.02"/>
-<instance part="TM1" gate="G$1" x="-73.66" y="20.32"/>
-<instance part="TM2" gate="G$1" x="20.32" y="81.28"/>
-<instance part="OUT2" gate="G$1" x="177.8" y="43.18"/>
-<instance part="CV1" gate="G$1" x="-66.04" y="50.8" rot="MR0"/>
-<instance part="IN2" gate="G$1" x="53.34" y="48.26" rot="MR0"/>
-<instance part="IN1" gate="G$1" x="-40.64" y="-12.7" rot="MR0"/>
-<instance part="CV2" gate="G$1" x="27.94" y="111.76" rot="MR0"/>
-<instance part="OUT1" gate="G$1" x="83.82" y="-17.78"/>
+<instance part="OUT2" gate="G$1" x="177.8" y="40.64" rot="R180"/>
+<instance part="CV2" gate="G$1" x="25.4" y="109.22" rot="MR180"/>
+<instance part="CV1" gate="G$1" x="-68.58" y="48.26" rot="MR180"/>
+<instance part="1N1" gate="G$1" x="-43.18" y="-15.24" rot="MR180"/>
+<instance part="IN2" gate="G$1" x="50.8" y="45.72" rot="MR180"/>
+<instance part="OUT1" gate="G$1" x="86.36" y="-20.32" rot="R180"/>
+<instance part="LEV1" gate="G$1" x="-73.66" y="20.32"/>
+<instance part="LEV2" gate="G$1" x="20.32" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -15782,8 +15792,8 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="-60.96" y1="43.18" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="CV1" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="43.18" x2="-60.96" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="CV1" gate="G$1" pin="RING"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -15799,13 +15809,13 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="-35.56" y1="-20.32" x2="-35.56" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="IN1" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="-20.32" x2="-35.56" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="1N1" gate="G$1" pin="RING"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="78.74" y1="-25.4" x2="78.74" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="OUT1" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-25.4" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="OUT1" gate="G$1" pin="RING"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
@@ -15823,8 +15833,8 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="33.02" y1="104.14" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="CV2" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="104.14" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="CV2" gate="G$1" pin="RING"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -15840,13 +15850,13 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="58.42" y1="40.64" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IN2" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="40.64" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="IN2" gate="G$1" pin="RING"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="172.72" y1="35.56" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="OUT2" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="35.56" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="OUT2" gate="G$1" pin="RING"/>
 </segment>
 <segment>
 <pinref part="R26" gate="G$1" pin="2"/>
@@ -15924,8 +15934,8 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="P+9" gate="1" pin="+12V"/>
-<wire x1="20.32" y1="91.44" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="TM2" gate="G$1" pin="B"/>
+<wire x1="20.32" y1="91.44" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="LEV2" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G1" pin="C"/>
@@ -15944,8 +15954,8 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<pinref part="TM1" gate="G$1" pin="B"/>
-<wire x1="-73.66" y1="27.94" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="25.4" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="LEV1" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="-12V" class="0">
@@ -15999,8 +16009,8 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="P-2" gate="1" pin="-12V"/>
-<wire x1="20.32" y1="71.12" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="TM2" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="71.12" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="LEV2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -16019,8 +16029,8 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </segment>
 <segment>
 <pinref part="P-1" gate="1" pin="-12V"/>
-<pinref part="TM1" gate="G$1" pin="A"/>
-<wire x1="-73.66" y1="12.7" x2="-73.66" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="15.24" x2="-73.66" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="LEV1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -16070,7 +16080,7 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <segment>
 <wire x1="-58.42" y1="53.34" x2="-60.96" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="CV1" gate="G$1" pin="2"/>
+<pinref part="CV1" gate="G$1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -16079,9 +16089,9 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <wire x1="-58.42" y1="20.32" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="ADJ1" gate="1" pin="MP"/>
 <wire x1="-60.96" y1="25.4" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="TM1" gate="G$1" pin="WIPER"/>
 <wire x1="-68.58" y1="20.32" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-60.96" y="20.32"/>
+<pinref part="LEV1" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -16124,7 +16134,7 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <segment>
 <wire x1="-33.02" y1="-10.16" x2="-35.56" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="IN1" gate="G$1" pin="2"/>
+<pinref part="1N1" gate="G$1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -16154,7 +16164,7 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <segment>
 <wire x1="71.12" y1="-15.24" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="OUT1" gate="G$1" pin="2"/>
+<pinref part="OUT1" gate="G$1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -16231,7 +16241,7 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <segment>
 <wire x1="35.56" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="CV2" gate="G$1" pin="2"/>
+<pinref part="CV2" gate="G$1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -16242,7 +16252,7 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <wire x1="33.02" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="86.36" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
 <junction x="33.02" y="81.28"/>
-<pinref part="TM2" gate="G$1" pin="WIPER"/>
+<pinref part="LEV2" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -16285,7 +16295,7 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 <segment>
 <wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<pinref part="IN2" gate="G$1" pin="2"/>
+<pinref part="IN2" gate="G$1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -16313,9 +16323,9 @@ For Bourns PTA series and TT Electronics PSxx series potentiometers.</descriptio
 </net>
 <net name="N$26" class="0">
 <segment>
-<wire x1="165.1" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="45.72" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="OUT2" gate="G$1" pin="2"/>
+<pinref part="OUT2" gate="G$1" pin="TIP"/>
 </segment>
 </net>
 <net name="N$27" class="0">
