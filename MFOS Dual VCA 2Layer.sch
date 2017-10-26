@@ -15487,10 +15487,10 @@ drill 1.0 mm</description>
 <part name="OUT1" library="erthenvar" deviceset="AUDIO-JACK" device="ITEAD"/>
 <part name="LEV1" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 <part name="LEV2" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
-<part name="BIAS1" library="pot" deviceset="TRIM_US-" device="B64W"/>
-<part name="TRIM1" library="pot" deviceset="TRIM_US-" device="B64W"/>
-<part name="TRIM2" library="pot" deviceset="TRIM_US-" device="B64W"/>
-<part name="BIAS2" library="pot" deviceset="TRIM_US-" device="B64W"/>
+<part name="BIAS1" library="pot" deviceset="TRIM_US-" device="B64W" value="100k"/>
+<part name="TRIM1" library="pot" deviceset="TRIM_US-" device="B64W" value="2k"/>
+<part name="TRIM2" library="pot" deviceset="TRIM_US-" device="B64W" value="2k"/>
+<part name="BIAS2" library="pot" deviceset="TRIM_US-" device="B64W" value="100k"/>
 </parts>
 <sheets>
 <sheet>
